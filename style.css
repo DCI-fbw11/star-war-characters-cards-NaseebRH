@@ -1,0 +1,70 @@
+body{
+    background: url(images/star.jpg) no-repeat 50% 50% fixed;
+    background-size: cover;
+}
+.card { 
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+   
+}
+
+p {
+    color: rgb(238, 23, 23);
+    font-size: 15px;
+}
+
+h1 {
+    color:  #f8b500;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+}
+
+h3{
+font-size: 25px;
+color: rgb(238, 23, 23);
+
+}
+#btn {
+    color: black;
+    margin: 5px;
+    width: 32%;
+    height: 40px;
+    background-color: blueviolet;
+    font-size: 30px;
+    border : 2px solid seashell;
+    border-radius: 25px;
+    padding: auto;
+}
+
+
+#pre{
+    margin: 5px;
+    background-color: rgb(225, 241, 0);
+    font-size: 30px;
+    width: 32%;
+    height: 40px;
+    color: black;
+    border : 2px solid seashell;
+    border-radius: 25px;
+    padding: auto;
+}
+
+#next {
+    margin: 5px;
+    font-size: 30px;
+    width: 32%;
+    height: 40px;
+    background-color: rgb(0, 255, 76);
+    color: black;
+    border : 2px solid seashell;
+    border-radius: 25px;
+    padding: auto;
+}
